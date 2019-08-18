@@ -1,0 +1,13 @@
+
+}squid:S1488,"aImmediately return this expression instead of assigning it to the temporary variable "_customer".(’áÄœüÿÿÿÿ
+}squid:S1488<"aImmediately return this expression instead of assigning it to the temporary variable "customers".(×Óòûÿÿÿÿ
+nsquid:S00117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’áÄœüÿÿÿÿ
+nsquid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©«¥üýÿÿÿÿ
+O
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ƒœðÏ
+Vsquid:S4684*"@Replace this persistent entity with a simple POJO or DTO object.(¢ÌÓ^
+O
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ê™íß
+\squid:S4684A"@Replace this persistent entity with a simple POJO or DTO object.(¹¼§Àûÿÿÿÿ
+O
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ïÚŽž
