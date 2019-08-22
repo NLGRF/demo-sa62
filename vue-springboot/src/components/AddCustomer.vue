@@ -21,6 +21,7 @@
           id="age"
           required
           v-model="customer.age"
+          v-on:keyup.enter="saveCustomer"
           name="age"
         />
       </div>
@@ -30,7 +31,7 @@
 
     <div v-else>
       <h4>You submitted successfully!</h4>
-      <button class="btn btn-success" v-on:click="newCustomer">Add</button>
+      <button class="btn btn-success" v-on:click="newCustomer" v-on:keyup.enter="newCustomer">Add</button>
     </div>
   </div>
 </template>

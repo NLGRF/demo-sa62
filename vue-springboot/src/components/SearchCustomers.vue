@@ -2,9 +2,17 @@
   <div class="searchform">
     <h4>Find by Age</h4>
     <div class="form-group">
-      <input type="number" class="form-control" id="age" required v-model="age" name="age">
+      <input
+        type="number"
+        class="form-control"
+        id="age"
+        required
+        v-model="age"
+        v-on:keyup.enter="searchCustomers"
+        name="age"
+      />
     </div>
- 
+
     <div class="btn-group">
       <button v-on:click="searchCustomers" class="btn btn-success">Search</button>
     </div>
